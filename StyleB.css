@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    height: 100%;
+    font-family: Tahoma, sans-serif;
+    font-size: 40px;
+  }
+  
+  body {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    padding: 0;
+  }
+  
+  .box {
+    width: 100px;
+    height: 150px;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+    padding: 10px;
+    flex-shrink: 0;
+    line-height: 1;
+  }
+  
+  .box:hover {
+    background-color: yellow;
+    color: goldenrod;
+    cursor: pointer;
+  }
+  
+  .box-f {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
